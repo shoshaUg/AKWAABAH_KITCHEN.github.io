@@ -75,7 +75,7 @@ nav ul li a i{
 .hero {
     background-size: cover;
     background-position: center;
-    background-image: url('gh.jpeg');
+    background-image: url('gallery/gh.jpeg');
     height: 120vh;
     color: #0b0b0b;
     display: flex;
