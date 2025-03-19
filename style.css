@@ -76,7 +76,7 @@ nav ul li a i{
     background-size: cover;
     background-position: center;
     background-image: url('gallery/gh.jpeg');
-    height: 120vh;
+    height: 90vh;
     color: #0b0b0b;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@ nav ul li a i{
     flex-direction: column;
 }
 .hero h1 {
-    font-size: 80px;
+    font-size: 60px;
     text-shadow: 0 0 50px rgba(0,0,0,0.5);
     
 }
@@ -102,8 +102,8 @@ nav ul li a i{
 }
 
 .recipe-card {
-    margin: 20px;
-    width: calc(33.33% - 20px);
+    margin: 10px;
+    width: calc(23.33% - 15px);
 }
 
 .recipe-card img {
@@ -171,7 +171,7 @@ footer {
     margin-top: 10px;
 }
 
-@media (max-width: 760px){
+@media (max-width: 1000px){
     .recipe-list .recipe-row {
         grid-template-columns: 1fr;
     }
